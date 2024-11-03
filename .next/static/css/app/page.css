@@ -1,0 +1,378 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/header/index.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.header_header__Y50HU {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  background-color: rgb(var(--background-header));
+}
+
+.header_nav-start__m_RLk {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.header_nav-start-slogan__HjNGk {
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.header_nav__HnmtJ {
+  width: 1440px;
+  max-width: 100%;
+  height: 36px;
+  display: flex;
+  margin: 22px auto;
+  align-items: center;
+  position: relative;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.header_nav-content__dL6QZ {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  align-items: center;
+  margin-left: 40px;
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.header_nav-item__ONbFu {
+  font-weight: 500;
+}
+
+.header_nav-item__ONbFu:hover {
+  color: #c084fc;
+}
+
+.header_nav-end__L642M {
+  position: absolute;
+  right: 16px;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/demo/modules/Button/index.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__amwNV {
+  padding: 12px 32px;
+  background-color: #a257fa;
+  border-radius: 12px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.Button_block-button__7XYGF {
+  width: 100%;
+}
+
+@keyframes Button_donut-spin__SHOua {
+  0% {
+    transform: rotate(0deg) scale(1.3);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1.3);
+  }
+}
+
+.Button_loading__70vUT {
+  display: inline-block;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-left-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  animation: Button_donut-spin__SHOua 1.2s linear infinite;
+  margin-right: 16px;
+}
+
+.Button_disable-btn__4w6Eg {
+  pointer-events: none;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/demo/modules/Collapse/index.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+.Collapse_collapse__mJUj6 {
+  overflow: hidden;
+  max-height: 1000px;
+  transition: all 0.3s linear;
+}
+
+.Collapse_collapse-header__kKR9B {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  cursor: pointer;
+}
+
+.Collapse_collapse-title__6eWLa {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.Collapse_arrow-icon__yuepH {
+  transition: all 0.3s linear;
+}
+
+.Collapse_arrow-icon-closed__0cCaa {
+  transform: rotate(90deg);
+}
+
+.Collapse_collapse-content__1RfMI {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.Collapse_collapse-closed__Owq4p {
+  transition-duration: 0s;
+  max-height: 60px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .Collapse_arrow-icon__yuepH {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/demo/modules/Tag/index.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.Tag_tag___Fnbp {
+  padding: 4px 10px;
+  background-color: #a257fa;
+  border-radius: 11px;
+  font-size: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/demo/modules/InputWrapper/index.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.InputWrapper_input-wrapper__guEKO {
+  position: relative;
+}
+
+.InputWrapper_label__LVwd8 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  color: #8b8ea1;
+  margin-bottom: 10px;
+}
+
+.InputWrapper_input__J7wQs {
+  border-radius: 9px;
+  background: rgb(var(--background-input-content));
+  border-width: 0;
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+}
+
+.InputWrapper_input__J7wQs[type='number'] {
+  padding-right: 40px;
+}
+
+.InputWrapper_input__J7wQs::placeholder {
+  color: #d0d5df;
+  font-size: 14px;
+}
+
+.InputWrapper_input__J7wQs:focus {
+  outline: none;
+}
+
+.InputWrapper_suffix__1cnBZ {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.InputWrapper_textarea__89GxM {
+  border-radius: 9px;
+  background: rgb(var(--background-input-content));
+  border-width: 0;
+  padding: 12px;
+  width: 100%;
+  height: 176px;
+  resize: none;
+}
+
+.InputWrapper_textarea__89GxM:focus {
+  outline: none;
+}
+
+.InputWrapper_textarea__89GxM::placeholder {
+  color: #d0d5df;
+  font-size: 14px;
+}
+
+.InputWrapper_tags__jU4sr {
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+}
+
+.InputWrapper_options__u4b_H {
+  position: absolute;
+  width: 100%;
+  padding: 12px 12px;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid rgba(197, 200, 215, 0.4);
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.InputWrapper_option__yzWDG {
+  color: #181b1e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  height: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+  line-height: 32px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.InputWrapper_option-selected__27v59 {
+  border-radius: 5px;
+  background-color: rgba(149, 87, 246, 0.2);
+  color: #a257fa;
+}
+
+.InputWrapper_option__yzWDG:hover {
+  border-radius: 5px;
+  background-color: rgba(149, 87, 246, 0.2);
+  color: #a257fa;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/demo/modules/ContractInteraction/index.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ContractInteraction_collapse-content__c1vGz {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/demo/modules/Divider/index.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.Divider_divider__p8yyj {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(var(--divider-color));
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/demo/modules/SendNativeToken/index.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+.SendNativeToken_collapse-content__eOEYC {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.SendNativeToken_result__KS95j {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/demo/modules/SignMessage/index.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+.SignMessage_right-btn__L0tWS {
+  align-self: flex-end;
+}
+
+.SignMessage_collapse-content__FpsSN {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.SignMessage_result__ya918 {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/demo/modules/SignTypedData/index.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.SignTypedData_collapse-content__2Lrxm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.SignTypedData_right-btn__6Lmij {
+  align-self: flex-end;
+}
+
+.SignTypedData_result__r1y5_ {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/demo/index.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.demo_demo__SOnJK {
+  border-radius: 22px;
+  background: rgb(var(--background-demo));
+  box-shadow: 0px 4px 10px 5px rgba(139, 142, 161, 0.1);
+  padding: 18px;
+  margin: 0 16px 80px;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/index.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.src_main-content__eD17q {
+  position: relative;
+  margin: 0 auto;
+  max-width: 640px;
+  margin-top: 100px;
+}
+
+.src_right-btn__AJSqU {
+  align-self: flex-end;
+}
+
+.src_collapse-content__Q_59_ {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
